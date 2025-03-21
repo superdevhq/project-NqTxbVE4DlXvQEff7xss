@@ -11,7 +11,8 @@ import {
   X,
   Search,
   Bell,
-  User
+  User,
+  Calendar
 } from "lucide-react";
 import { 
   SidebarProvider, 
@@ -59,6 +60,7 @@ export function Layout({ children }: LayoutProps) {
     { path: "/companies", label: "Companies", icon: <Building2 className="h-5 w-5" /> },
     { path: "/contacts", label: "Contacts", icon: <Users className="h-5 w-5" /> },
     { path: "/deals", label: "Deals", icon: <BarChart3 className="h-5 w-5" /> },
+    { path: "/calendar", label: "Calendar", icon: <Calendar className="h-5 w-5" /> },
     { path: "/settings", label: "Settings", icon: <Settings className="h-5 w-5" /> },
   ];
 
